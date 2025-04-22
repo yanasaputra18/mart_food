@@ -21,39 +21,39 @@
               <div class="menu p-2">
                 <span><i class="fa-regular fa-credit-card m-2"></i></span>
               </div>
-              <p>Menu1</p>
+              <p>Kita Bisa</p>
             </div>
             <div class="main-menu">
               <div class="menu p-2">
                 <span><i class="fa-solid fa-basket-shopping mt-2"></i></span>
               </div>
-              <p>Menu1</p>
+              <p>F&D</p>
             </div>
             <div class="main-menu">
               <div class="menu p-2">
-                <span><i class="fa-regular fa-font-awesome mt-2"></i></span>
+                <span><i class="fa-solid fa-palette mt-2"></i></span>
               </div>
-              <p>Menu1</p>
+              <p>Kita Berkarya</p>
             </div>
           </div>
           <div class="icon d-flex justify-content-between">
             <div class="main-menu">
               <div class="menu p-2">
-                <span><i class="fa-solid fa-basket-shopping mt-2"></i></span>
+                <span><i class="fa-solid fa-store mt-2"></i></span>
               </div>
-              <p>Menu1</p>
+              <p>Foodcourt</p>
             </div>
             <div class="main-menu">
               <div class="menu p-2">
                 <span><i class="fa-regular fa-font-awesome mt-2"></i></span>
               </div>
-              <p>Menu1</p>
+              <p>Kita Pintar</p>
             </div>
             <div class="main-menu">
               <div class="menu p-2">
-                <span><i class="fa-solid fa-bars mt-2"></i></span>
+                <span><i class="fa-solid fa-lightbulb mt-2"></i></span>
               </div>
-              <p>Menu1</p>
+              <p>More</p>
             </div>
           </div>
         </div>
@@ -70,7 +70,9 @@
             <div class="sponsor-main d-flex justify-content-between">
               <div class="content"></div>
               <div class="content1"></div>
-              <div class="content2"></div>
+              <div class="content2">
+                <img src="../assets/ligi.jpg" alt="" style="width: 3.5rem" />
+              </div>
             </div>
           </div>
         </div>
@@ -85,7 +87,7 @@
         <div class="col-8 promo_utama"></div>
         <div class="col-3">
           <div class="promo_mini"></div>
-          <div class="promo_mini"></div>
+          <div class="promo_mini2"></div>
         </div>
       </div>
     </div>
@@ -99,10 +101,13 @@
           <div
             class="menu-title d-flex justify-content-between align-items-center"
           >
-            <div class="cardt"></div>
-            <p>Category</p>
-            <p>Category</p>
-            <p>Category</p>
+            <div class="rounded-pill p-3 d-flex w-50">
+              <small class="d-flex w-50">Kategori</small
+              ><i class="fa-solid fa-chevron-down ms-2 d-flex"></i>
+            </div>
+            <small>Makanan</small>
+            <small>Minuman</small>
+            <small>Bahan</small>
           </div>
           <div class="produk-main d-flex justify-content-between">
             <div class="card" style="width: 7rem">
@@ -216,6 +221,18 @@
 
   <section>
     <div class="row px-2 m-0">
+      <div class="col-12 d-flex justify-content-center">
+        <div class="foother">
+          <div class="logo">
+            <img src="../assets/logo.png" alt="" style="width: 15rem" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="row px-2 m-0">
       <div class="col-12">
         <div class="maps my-3">
           <iframe
@@ -225,20 +242,9 @@
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
+            class="rounded shadow"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="row px-2 m-0">
-      <div class="col-12 d-flex justify-content-center">
-        <div class="foother">
-          <div class="logo">
-            <img src="../assets/logo.png" alt="" style="width: 15rem" />
-          </div>
         </div>
       </div>
     </div>
@@ -301,7 +307,7 @@
       </div>
     </div>
     <br />
-    <p class="text-center">© 2025 Foodmart</p>
+    <p class="text-center">©2025 UMKM INDONESIA HEBAT</p>
   </footer>
   <div class="home">
     <HelloWorld />
@@ -380,7 +386,7 @@ export default {
   text-align: center;
   width: 5rem;
   height: 4rem;
-  background-color: antiquewhite;
+  color: white;
   border-radius: 5px;
 }
 .menu span i {
@@ -408,20 +414,14 @@ export default {
   width: 6.5rem;
   height: 3rem;
   border-radius: 0.5rem;
-  background-image: url(../assets/make.png);
+  background-image: url(../assets/urban.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .content2 {
-  margin-top: 1rem;
-  width: 6.5rem;
   height: 3rem;
   border-radius: 0.5rem;
-  background-image: url(../assets/pep.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 9rem;
 }
 /* sponsor end */
 
@@ -433,7 +433,7 @@ export default {
 }
 .promo_utama {
   height: 8rem;
-  background-image: url(../assets/pro.jpg);
+  background-image: url(../assets/container4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -443,7 +443,17 @@ export default {
   width: 6.4rem !important;
   height: 3.8rem;
   margin-bottom: 0.5rem;
-  background-image: url(../assets/product-thumb-11.jpg);
+  background-image: url(../assets/container3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+}
+.promo_mini2 {
+  width: 6.4rem !important;
+  height: 3.8rem;
+  margin-bottom: 0.5rem;
+  background-image: url(../assets/container5.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
